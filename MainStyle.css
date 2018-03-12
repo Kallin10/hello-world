@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+.MainDiv{
+	padding: 10px;
+	border: solid 1px #e9e9e9;
+	display: block;
+	min-width: 20%;
+	max-width: 90%;
+	margin: 0 auto;
+	box-shadow: 1px 1px 5px #cccccc;
+	overflow: hidden;
+}
+.Column{
+	display: block;
+	Clear: Both;
+}
+
+.Row{
+	float: left;
+	margin: 2px 5px;
+	padding: 3px 6px;
+	border: solid 1px #efefef;
+	border-radius: 3px;
+}
+
+.HeaderControls{
+	width: 97%;}
+
+.EventLogSize{
+
+	width: 450px;
+	height: 220px;
+	max-height: 220px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	word-wrap: normal;
+}
+
+@media screen and (min-width: 450px) {
+    .EventLogSize {
+		width: 450px;}
+}
+
+.ActiveBtn{
+	background-color: #a5b79a;
+	border: inset 1px #577459;
+}
+
+.JobSelectorBtn{
+	background-color: #d9e1dc;
+	border-radius: 20px;
+	border: 1px solid #667768;
+	padding: 1px 6px;
+	font-size: 10px;
+}
+
+.JobSelectorBtn:active{
+	border: inset 1px;
+	background-color: #aeb9b2;
+}
+
+.JobSelectorGroup{
+	display: block;
+	float: inline-start;
+	margin: 4px 0px;
+	border-right: 1px solid #efefef;
+	padding: 0px 5px;
+}
+
+.JobManagementControls{
+	width: 97%;}
+
+.StatusSize{
+	max-width: 160px;
+	width: 160px;
+	overflow-x: hidden;
+}
+
+.UnclickableBtn, .UnclickableBtn:active{
+	background-color: #dbe4e4;
+	border: solid 1px #bdcbbe;
+	color: #bcbcbd;
+}
+
+#HelpGuide{
+	float: right;}
+
+#CityStatus::before{
+	content: "Warrock Status:";
+	display:block;
+	margin-bottom: 3px;
+	color: #787872;
+}
+
+#EventLog::before{
+	content: "Event Log: ";
+	display:block;
+	margin-bottom: 3px;
+	color: #787872;
+}
+
+.DisplayNone{
+	display: none;}
+
+#UnabledGame{
+	width: 100%;
+	height: 100%;
+	background-color: #0000004d;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#WarningBox{
+	background-color: whitesmoke;
+	height: 50%;
+	width: 50%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border: double 3px #bcbcbc;
+	box-shadow: 4px 5px 5px #0003;
+	padding: 5px 10px;
+	max-height: 170px;
+	min-height: 105px;	
+}
+
+.WarningButton{
+	position: absolute;
+	right: 0;
+	bottom: 0
+}
+	
+#WarningButton01, #WarningButton02{
+	margin: 10px;}
+	
+#WarningTextbox{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	word-wrap: normal;
+	max-height: 70%}
